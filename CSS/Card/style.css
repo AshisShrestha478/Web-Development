@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgba(14, 53, 88, 0.884);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    border: 1px solid black;
+    display: flex;
+    width: 55%;
+}
+
+.right-box{
+    width: 50%;
+}
+
+.right-box img{
+    width: 100%;
+    height: 100%;
+}
+
+.left-box{
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem;
+    gap: 2.5rem;
+    width: 50%;
+    background-color: rgb(76, 6, 90);
+}
+
+.top{
+    width: 80%;
+}
+
+.mid{
+    width: 90%;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.bottom-content #number{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
